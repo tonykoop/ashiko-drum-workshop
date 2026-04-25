@@ -1,20 +1,20 @@
 # Ashiko Drum-Building Workshop
 
-> *In January 2015, I designed and led an 8-person workshop at a Twin Cities makerspace where we built 16 traditional African ashiko drums end-to-end — from sourcing raw hardwood lumber to lacing on the goat-skin head.*
+> *In January 2015, I designed and led an 8-person workshop at a Twin Cities makerspace where we built 16 traditional African ashiko drums end-to-end — from sourcing raw hardwood lumber to lacing on the goatskin head.*
 
 ![Hero photo](images/05c-glue-up-finished-bodies.jpg)
 
 ## What this is
 
-An archive of the engineering and process documentation behind a workshop I designed and led at a Minneapolis makerspace in January 2015. Eight friends — most of whom had never used a table saw or a wood lathe — built sixteen full-scale ashiko hand drums together over several weeks of weekends.
+An archive of the engineering and process documentation behind a workshop I designed and led at a Minneapolis makerspace in January 2015. Eight friends — most of whom had never used a table saw or a wood lathe — built sixteen full-scale ashiko hand drums together over several weeks.
 
-This repository contains the things we needed to make that work: bills of material, CAD geometry, custom lathe-fixture drawings, the table-saw sled jig used for compound stave cuts, per-builder cut-list drawings, and photos from the build. It is part build log, part teaching artifact, part portfolio piece.
+This repository contains the things we needed to make that work: bills of material, CAD geometry, custom lathe-fixture drawings, the table-saw sled jig used for compound stave cuts, per-builder customization, and photos from the build. It is part build log, part teaching artifact, part portfolio piece.
 
 ## Background
 
-A few years before this workshop, I worked at **Morgan Drums**, a small Minneapolis family company building African hand drums — djembes, ashikos, congas, bongos, frame drums. That is where I learned the craft side: how to read a stave, how to read a goatskin, how a drum's tone changes between the lathe pass and the rope pull.
+A few years before this workshop, I worked at **Morgan Drums**, a small St. Paul, MN family company building African hand drums — djembes, ashikos, bongos, and frame drums. That is where I learned the craft side: how to read a stave, how to read a goatskin, how a drum's tone changes between the lathe pass and the rope pull.
 
-By late 2014 I was a member at a Twin Cities makerspace and convinced seven friends to spend a winter building drums with me. None of them were drum makers. The fun of it — and the engineering challenge — was designing a process robust enough that an electrical engineer, a software developer, and a full-stack newcomer could each produce a tuneable, beautiful drum on their first attempt.
+By late 2014 I was a member at a Twin Cities makerspace and convinced seven friends to spend a winter building drums with me. None of them were drum makers. The fun of it — and the engineering challenge — was designing a process robust enough that a bakery chef, a software salesman, and a yoga teacher could each produce a tuneable, beautiful drum on their first attempt.
 
 ## The process
 
@@ -41,7 +41,7 @@ Three iterations of the 19-inch stave part lived in CAD before the workshop star
 
 ### The table-saw sled jig
 
-The single most engineering-heavy artifact in the project. Cutting 18 staves at a compound miter angle, repeatably, ~190 cuts per drum × 16 drums, on a portable contractor saw, with eight different operators of varying experience — this is what made the workshop teachable. The sled assembly broke down into four parts:
+The single most engineering-heavy artifact in the project. Cutting 18 staves each with two compound miter cuts, two chop saw cuts, repeatably, ~72 cuts per drum × 16 drums, on a portable contractor saw, with eight different operators of varying experience — this is what made the workshop teachable. The sled assembly broke down into four parts:
 
 - `Base-Board.SLDPRT` — the sled deck
 - `Rib.SLDPRT` — the angled fence
@@ -82,7 +82,7 @@ We also printed Avery 5160 labels for every stave so they didn't get mixed up be
 
 A few things that translate directly to the engineering work I do now:
 
-- **Process design beats individual skill.** The workshop's weakest builder still produced a drum indistinguishable from the strongest builder's. That happened because the jigs and fixtures absorbed the variance, not because everyone became equally skilled. Same principle as Design for Manufacturability — the process should make the tolerance, not the operator.
+- **Process design beats individual skill.** Even the most novice builder produced a drum indistinguishable from the most experienced builder's. That happened because the jigs and fixtures absorbed the variance, not because everyone became equally skilled. Same principle as Design for Manufacturability — the process should make the tolerance, not the operator.
 - **Documentation is leverage.** The per-builder cut drawings, the labeled staves, the BOM revisions — without those, eight people working in parallel would have produced sixteen subtly different drums. With them, we produced sixteen drums to the same spec and learned far more about why drums sound how they do.
 - **Iteration is cheap on the CAD side, expensive on the lumber side.** Six drum body revisions cost me a few weekends in SolidWorks. Cutting the wrong stave angle would have cost a board-foot of cherry per mistake. Front-load the iteration where it's free.
 
