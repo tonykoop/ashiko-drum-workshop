@@ -12,6 +12,8 @@ This repository contains the things we needed to make that work: bills of materi
 
 ## Background
 
+The ashiko is a West African hand drum of Yoruba origin, traditionally carved or staved hardwood with a goatskin head — its sound sits between the deeper tone of a djembe and the brighter tone of a conga.
+
 A few years before this workshop, I worked at **Morgan Drums**, a small St. Paul, MN family company building African hand drums — djembes, ashikos, bongos, and frame drums. That is where I learned the craft side: how to read a stave, how to read a goatskin, how a drum's tone changes between the lathe pass and the rope pull.
 
 By late 2014 I was a member at a Twin Cities makerspace and convinced seven friends to spend a winter building drums with me. None of them were drum makers. The fun of it — and the engineering challenge — was designing a process robust enough that a bakery chef, a software salesman, and a yoga teacher could each produce a tuneable, beautiful drum on their first attempt.
