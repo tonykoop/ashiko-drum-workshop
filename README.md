@@ -90,7 +90,7 @@ A few things that translate directly to the engineering work I do now:
 
 ## Builders
 
-Tony Koop · Dallas Nustvold · Dan Estenson · Dan Plante · Joe Spitzenberger · Max Okray · Mike Nieland · Tyler Kilbury
+Tony · Dallas · Dan E. · Dan P. · Joe · Max · Mike · Tyler
 
 ## License
 
