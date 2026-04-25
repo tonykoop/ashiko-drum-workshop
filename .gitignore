@@ -1,55 +1,22 @@
-# Prerequisites
-*.d
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# SolidWorks lock + backup files
+*.~*
+~$*
+*.bak
+*.SLDBAK
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Editors
+.vscode/
+.idea/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Photo working files (keep curated exports, not raw working files)
+*.psd
+*.lrcat
+*.lrcat-journal
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# A folder for raw camera files you don't want committed
+/raw/
