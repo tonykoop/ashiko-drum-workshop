@@ -6,7 +6,7 @@
 
 ## What this is
 
-An archive of the engineering and process documentation behind a workshop I designed and led at a Minneapolis makerspace in January 2015. Eight friends — most of whom had never used a table saw or a wood lathe — built sixteen full-scale ashiko hand drums together over several weeks.
+An archive of the engineering and process documentation behind a workshop I designed and led at a Minneapolis makerspace in January 2015. Seven friends — most of whom had never used a table saw or a wood lathe — built sixteen full-scale ashiko hand drums together over several weeks.
 
 This repository contains the things we needed to make that work: bills of material, CAD geometry, custom lathe-fixture drawings, the table-saw sled jig used for compound stave cuts, per-builder customization, and photos from the build. It is part build log, part teaching artifact, part portfolio piece.
 
