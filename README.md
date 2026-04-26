@@ -51,6 +51,11 @@ The single most engineering-heavy artifact in the project. Cutting 18 staves eac
 
 The reference document we built from is in `reference/Table-Saw-Sled-Construction-Reference.pdf`, with the table-saw owner's manual alongside in `reference/Bosch-4100-Table-Saw-Manual.pdf`.
 
+### Glue-up — labeled staves, two-half clamping
+
+![Glue-up prep: two half-rounds of labeled Douglas Fir staves laid flat, with clamping rope, glue, and earlier finished bodies behind](images/2021-09-16%2012.55.57.jpg)
+*Glue-up prep for **Ashiko #009 "Mister Zephyr"** — a Douglas Fir personal build from October 2021, six years after the workshop. The two fan-shaped half-rounds in the foreground are the eighteen staves split into two nine-stave assemblies; gluing as halves (then mating the two halves) is dramatically easier than trying to close a full eighteen-stave ring in one pass. The handwritten text on the inside faces of the left half-round — visible here, invisible once the drum closes up — is the maker's signature ("Mister Zephyr · © Tony Koop · Made in Minneapolis MN · October 2021 · Ashiko #009 · Douglas Fir"), a tradition continued from my Morgan Drums tenure (the same convention shows up in the [`djembe`](https://github.com/tonykoop/djembe) sister repo). Behind the work surface: Titebond III, the rope used for clamping pressure, and several finished glued bodies from earlier builds. **Why this photo earns a place in the workshop README:** the workshop ran in 2015. This drum was built solo in 2021. The CAD, BOM, sled jig, lathe fixture, and per-stage process documented in this repository were good enough that they're still producing drums six years later — that's the design-for-reproducibility outcome the workshop was originally built to test.*
+
 ### The lathe fixture
 
 To turn a glued-up 18-stave drum body on a wood lathe without it walking, you need a custom drive arrangement that grips internally and transfers torque cleanly. The lathe fixture in `CAD/lathe-fixture/` includes:
