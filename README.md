@@ -41,6 +41,12 @@ Three iterations of the 19-inch stave part lived in CAD before the workshop star
 
 ![Stave dimensions](images/figure-stave-dimensions.png)
 
+### Recovered segmented ashiko archive
+
+A separate segmented-turning branch of the ashiko work has now been recovered into `CAD/segmented-ashiko/`, split into `large/` and `small/` studies. These are not the same thing as the 18-stave workshop build process documented elsewhere in this repo. They preserve an alternate geometry path where the shell is approximated as stacked segmented rings rather than long staves.
+
+That makes the archive useful for two reasons: it keeps the ashiko-specific segmented work from being buried inside the djembe repo, and it shows how the same design questions were being explored across multiple related drums rather than as isolated one-off experiments.
+
 ### The table-saw sled jig
 
 The single most engineering-heavy artifact in the project. Cutting 18 staves each with two compound miter cuts, two chop saw cuts, repeatably, ~72 cuts per drum × 16 drums, on a portable contractor saw, with eight different operators of varying experience — this is what made the workshop teachable. The sled assembly broke down into four parts:
@@ -112,6 +118,7 @@ ashiko-drum-workshop/
 ├── CAD/
 │   ├── stave/                 ← 18-stave geometry, V1 → V3
 │   ├── drum-body/             ← 6 numbered revisions of the assembled body
+│   ├── segmented-ashiko/      ← recovered large + small segmented studies
 │   ├── lathe-fixture/         ← drive shaft, collar, cone adapter, full assembly
 │   ├── table-saw-sled/        ← compound-cut sled jig (4 parts)
 │   └── components/            ← McMaster-Carr referenced parts
