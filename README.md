@@ -10,6 +10,8 @@ An archive of the engineering and process documentation behind a workshop I desi
 
 This repository contains the things we needed to make that work: bills of material, CAD geometry, custom lathe-fixture drawings, the table-saw sled jig used for compound stave cuts, per-builder customization, and photos from the build. It is part build log, part teaching artifact, part portfolio piece.
 
+For a flat-panel woodworking project that uses the same segmented glue-up discipline in a very different form, see [`chessboard-table`](https://github.com/tonykoop/chessboard-table).
+
 ## Background
 
 The ashiko is a West African hand drum of Yoruba origin, traditionally carved or staved hardwood with a goatskin head — its sound sits between the deeper tone of a djembe and the brighter tone of a conga.
