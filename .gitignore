@@ -20,3 +20,48 @@ desktop.ini
 
 # A folder for raw camera files you don't want committed
 /raw/
+
+# -------------------------------------------------------------------
+# Photo galleries — too big for GitHub, kept on local disk only
+# -------------------------------------------------------------------
+# These three dirs together total ~2 GB of personal/workshop photos.
+# They live on disk for reference but never get committed or pushed.
+docs/Ashiko Makers Club/Stave Gallery/
+docs/Ashiko Makers Club/Turning Photos/
+docs/Ashiko Makers Club/Images/
+
+# -------------------------------------------------------------------
+# Stash-recovery sidecars
+# -------------------------------------------------------------------
+# When recovering files from a hygiene-bot stash, recover-stash.ps1
+# extracts them to a stash-recovered-<date>-stash__N_/ folder as a
+# safety copy. After you've confirmed the recovered files made it
+# into their proper locations, the sidecar can be deleted. Never
+# commit one to git.
+stash-recovered-*/
+
+# -------------------------------------------------------------------
+# Large binaries (>10 MB) generally don't belong on GitHub free
+# accounts. Specific extensions and patterns we've hit:
+# -------------------------------------------------------------------
+# Camera RAW
+*.cr2
+*.CR2
+*.nef
+*.NEF
+*.dng
+*.DNG
+*.arw
+*.ARW
+
+# Video (workshop videos belong on YouTube / Drive)
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.avi
+*.AVI
+
+# Pack-and-Go zips / archives
+PackAndGo*.zip
+*.7z
