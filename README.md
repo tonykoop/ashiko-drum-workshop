@@ -1,5 +1,7 @@
 # Ashiko Drum-Building Workshop
 
+**Status: L4 V5 empirical packet** — validated by the 2015 workshop build of 16 drums. `validation.csv` captures nominal shell/head parameters; measured pitch values are pending re-measurement (workshop tuner readings were not recorded). `reference/acoustic-validation-checklist.md` defines pre-build and post-build acceptance gates.
+
 > *In January 2015, I designed and led an 8-person workshop at a Twin Cities makerspace where we built 16 traditional African ashiko drums end-to-end — from sourcing raw hardwood lumber to lacing on the goatskin head.*
 
 ![Hero photo](images/05c-glue-up-finished-bodies.jpg)

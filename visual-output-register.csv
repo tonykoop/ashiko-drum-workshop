@@ -1,0 +1,25 @@
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
+IMG-ARCH-001,images/01-early-build.jpg,photo,reference_archive,reference_only,,none,Workshop archival photo 2015; not dimensional authority
+IMG-ARCH-002,images/01b-early-build.jpg,photo,reference_archive,reference_only,,none,Workshop archival photo 2015
+IMG-ARCH-003,images/02-workshop-feb14.jpg,photo,reference_archive,reference_only,,none,Workshop archival photo Feb 14 2015
+IMG-ARCH-004,images/02b-workshop-feb15.jpg,photo,reference_archive,reference_only,,none,Workshop archival photo Feb 15 2015
+IMG-ARCH-005,images/03-tony-stave-set.jpg,photo,reference_archive,reference_only,,none,Stave set photo; shows nominal geometry
+IMG-ARCH-006,images/04-lathe-turning-mike.jpg,photo,reference_archive,reference_only,,none,Lathe turning archival photo
+IMG-ARCH-007,images/05-glue-up-cherry-staves.jpg,photo,reference_archive,reference_only,,none,Glue-up archival photo
+IMG-ARCH-008,images/05b-glue-up-clamping.jpg,photo,reference_archive,reference_only,,none,Clamping jig archival photo
+IMG-ARCH-009,images/05c-glue-up-finished-bodies.jpg,photo,reference_archive,reference_only,,none,Finished drum bodies archival photo; hero image in README
+IMG-ARCH-010,images/2021-09-15 13.05.39.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-011,images/2021-09-16 12.55.57.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-012,images/2021-10-06 11.49.15.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-013,images/2021-10-07 13.28.02.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-014,images/2021-10-07 13.28.10.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-015,images/2021-10-08 15.43.55.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-016,images/2021-10-21 14.14.43.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-017,images/2021-10-22 16.16.47.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-018,images/2021-10-22 16.17.06.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-019,images/2021-12-14 12.53.09.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+IMG-ARCH-020,images/2021-12-20 10.02.08.jpg,photo,reference_archive,reference_only,,none,2021 follow-up photo
+BOM-PDF-001,BOM/Bill-of-Materials-V1.pdf,bom_document,reference_archive,reference_only,,none,Original BOM PDF from 2015 workshop; not dimensional CAD authority
+BOM-PDF-002,BOM/Bill-of-Materials-V2.pdf,bom_document,reference_archive,reference_only,,none,Revised BOM PDF
+BOM-PDF-003,BOM/Ashiko-BOM-Final.pdf,bom_document,reference_archive,reference_only,,none,Final BOM PDF from workshop
+STAVE-PDF-001,BOM/Stave-Draft-Rounds-1-7.pdf,drawing,reference_archive,reference_only,,none,Stave iteration drawings; design intent reference only
