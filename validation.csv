@@ -1,0 +1,17 @@
+drum_id,builder,stave_count,shell_dia_mm,shell_height_mm,wood_species,head_type,head_dia_mm,tuning_method,rope_tension_adj,observed_pitch_hz,observed_pitch_note,observed_tone_quality,workshop_date,notes
+ASH-001,builder-1,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-01-01,Nominal dims from workshop stave-set drawings; pitch not recorded
+ASH-002,builder-1,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-01-01,Second drum for builder-1; matching pair
+ASH-003,builder-2,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-01-15,Nominal cherry stave batch
+ASH-004,builder-2,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-01-15,Second drum for builder-2; matching pair
+ASH-005,builder-3,18,292,635,maple,goatskin,267,rope-mali,initial,"","",pending_measurement,2015-01-15,Maple stave variant; slightly larger shell
+ASH-006,builder-3,18,292,635,maple,goatskin,267,rope-mali,initial,"","",pending_measurement,2015-01-15,Matching maple pair for builder-3
+ASH-007,builder-4,18,279,610,walnut,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-01,Walnut shell; darker tone character expected
+ASH-008,builder-4,18,279,610,walnut,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-01,Second walnut drum; matching pair
+ASH-009,builder-5,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-01,Standard cherry nominal
+ASH-010,builder-5,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-01,Matching pair for builder-5
+ASH-011,builder-6,18,279,622,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-14,Slightly taller shell variant
+ASH-012,builder-6,18,279,622,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-14,Second taller-shell drum
+ASH-013,builder-7,18,292,610,maple,goatskin,267,rope-mali,initial,"","",pending_measurement,2015-02-14,Wider maple shell with standard height
+ASH-014,builder-7,18,292,610,maple,goatskin,267,rope-mali,initial,"","",pending_measurement,2015-02-14,Matching maple pair for builder-7
+ASH-015,builder-8,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-14,Standard cherry final batch
+ASH-016,builder-8,18,279,610,cherry,goatskin,254,rope-mali,initial,"","",pending_measurement,2015-02-14,Final drum of 16; standard cherry nominal
