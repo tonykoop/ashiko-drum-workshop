@@ -1,0 +1,54 @@
+{
+  "version": "0.1",
+  "generated_at": "2026-06-21",
+  "source_repo": "tonykoop/ashiko-drum-workshop",
+  "notes": [
+    "V5 percussion export \u2014 artifacts reflect current repo state.",
+    "Authority labels follow instrument-maker v4.5 DXF-first visual authority guard.",
+    "Promote artifacts from derived_preview to fabrication only after reviewed DXF or measured build."
+  ],
+  "packets": [
+    {
+      "id": "ashiko-drum-workshop",
+      "display_name": "Ashiko Drum-Building Workshop",
+      "family": "goblet drum \u00b7 membranophone",
+      "repo_path": ".",
+      "status_line": "Status: L4 V5 empirical packet",
+      "readiness_label": "L4 V5 empirical packet",
+      "summary": "Workshop-validated stave-built ashiko goblet drum. Tony led a 16-drum build sprint at a Twin Cities makerspace in January 2015. Shell geometry validated by that build; pitch values pending re-measurement.",
+      "site_entry": "explorer.html",
+      "artifacts": [
+        {
+          "id": "README-md",
+          "kind": "README",
+          "label": "Packet README",
+          "path": "README.md",
+          "authority": "reference_only",
+          "preview_role": "packet_card",
+          "runtime_state": "not_applicable",
+          "notes": "Reader-facing summary and repo map."
+        },
+        {
+          "id": "validation-csv",
+          "kind": "validation",
+          "label": "Validation table",
+          "path": "validation.csv",
+          "authority": "reference_only",
+          "preview_role": "detail_link",
+          "runtime_state": "not_applicable",
+          "notes": "Predicted vs measured values; names remaining measurement gates."
+        },
+        {
+          "id": "visual-output-register-csv",
+          "kind": "visual_output_register",
+          "label": "Visual output register",
+          "path": "visual-output-register.csv",
+          "authority": "reference_only",
+          "preview_role": "detail_link",
+          "runtime_state": "not_applicable",
+          "notes": "Records which artifacts are previews versus controlling geometry."
+        }
+      ]
+    }
+  ]
+}
