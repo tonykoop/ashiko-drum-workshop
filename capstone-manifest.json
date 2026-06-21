@@ -1,0 +1,81 @@
+{
+  "title": "Ashiko Drum-Building Workshop",
+  "instrument": "18-stave goatskin-head ashiko hand drum",
+  "build_target": "16-drum workshop batch + reproducible stave-build process",
+  "artifact_focus": "L4 empirical packet — workshop-validated geometry, jig CAD, and assembly manual",
+  "release_status": "L4 V5 empirical packet",
+  "packet_version": "v5-r1",
+  "family_members": [
+    "ashiko",
+    "goblet drum",
+    "staved hand drum",
+    "Yoruba percussion"
+  ],
+  "cultural_provenance": {
+    "claim": "This packet documents a 2015 workshop that produced 16 physical ashiko drums. It does not claim to be a traditional craft authority; it documents engineering decisions made for a makerspace build context informed by Morgan Drums apprenticeship (Tony Koop, 2012–2014)."
+  },
+  "physical_design_anchors": {
+    "dimension_basis": "18-stave shell; stave geometry from SolidWorks CAD",
+    "nominal_shell_od_mm": "279 (cherry) / 292 (maple variant)",
+    "nominal_shell_height_mm": "610 (standard) / 622 (tall variant)",
+    "bevel_angle_per_face_deg": "10.0",
+    "stave_count": "18",
+    "head_type": "goatskin, rope-mali tuning",
+    "authority_scope": "stave geometry, jig CAD, and lathe fixture — from SolidWorks parts in CAD/; pitch measurements pending re-capture from builders"
+  },
+  "release_gate": {
+    "public_candidate": true,
+    "notes": [
+      "Fabrication geometry (stave, sled, lathe fixture) is CAD-backed and workshop-validated.",
+      "Pitch data not recorded at workshop; validation.csv nominal rows only.",
+      "Drawing DXF exports not yet produced from SolidWorks originals (drawing-brief.md lists priority drawings).",
+      "Wolfram model is parametric estimate; membrane tension values are nominal, not measured."
+    ]
+  },
+  "engineering": {
+    "authority_register": "visual-output-register.csv",
+    "validation_gates": "validation.csv",
+    "assembly_manual": "build/packet/assembly-manual.md",
+    "design_packet": "build/packet/design.md",
+    "bom": "build/packet/bom.csv",
+    "sourcing": "build/packet/sourcing.csv",
+    "cut_list": "build/packet/cut-list.csv",
+    "risks": "build/packet/risks.md",
+    "drawing_brief": "build/packet/drawing-brief.md",
+    "photo_shotlist": "build/packet/photo-shotlist.md",
+    "skills": [
+      "skills/stave-construction-compound-miter.md"
+    ],
+    "wolfram": [
+      {
+        "source_file": "build/wolfram/ashiko-drum-workshop.wl",
+        "cloud_path": "pending",
+        "cloud_url": "pending",
+        "permission": "Public-Execute",
+        "kind": "geometry-model"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "SolidWorks stave CAD",
+      "credit": "Stave and sled geometry for the 2015 workshop build",
+      "url": "CAD/CNC Sled/Ashiko Stave REV012316.SLDPRT"
+    },
+    {
+      "title": "Workshop BOM V2",
+      "credit": "Materials and costs for the 16-drum workshop batch",
+      "url": "BOM/Ashiko-BOM-V2.xlsx"
+    },
+    {
+      "title": "Stave cutting process",
+      "credit": "Per-builder stave-cut drawings and draft plan",
+      "url": "drawings/Stave-Cutting-Process.pdf"
+    },
+    {
+      "title": "Acoustic validation checklist",
+      "credit": "Pre-build and post-build acceptance gates",
+      "url": "reference/acoustic-validation-checklist.md"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+part_id,part_name,qty_per_drum,raw_stock,rough_length_mm,rough_width_mm,rough_thickness_mm,final_length_mm,final_width_mm,final_thickness_mm,operation,authority,notes
+STAVE-STD,Ashiko stave (standard 18-stave shell),18,cherry or maple board,660,60,25,610,48.7,varies,Rip to rough width + compound miter on table-saw sled,CAD/CNC Sled/Ashiko Stave REV012316.SLDPRT,Bevel 10° per face; miter from taper angle; see drawings/Stave-Cutting-Process.pdf
+HOOP-TOP,Top hoop (head-bearing ring),1,ash or oak strip 3/4x3/4,900 (unrolled),19,19,~890 bent to OD,N/A,19,Steam-bend or kerfing bend to shell OD; dry in form,Shop fabricated,Final OD matches shell head-bearing surface ±1 mm
+HOOP-BOT,Bottom hoop (optional — some builds omit),1,ash strip 3/4x3/4,900,19,19,~890 bent,N/A,19,Same as top hoop,Shop fabricated,Provides rope anchor at base; skip for simpler lacing
+CAUL-HALF,Glue-up clamping caul (reusable),2,scrap plywood 18mm,300,150,18,300,150,18,Cut to shape; attach drywall screws as anchors,Shop fabricated,Two cauls per half-shell; reused across all drums
