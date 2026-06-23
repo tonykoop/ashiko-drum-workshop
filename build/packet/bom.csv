@@ -1,0 +1,14 @@
+part_id,description,qty_per_drum,unit,unit_cost_usd_2015,total_cost_usd_2015,supplier,notes
+LBR-CHR,Cherry hardwood lumber (4/4 surfaced),4,board_foot,4.50,18.00,Youngblood Lumber Minneapolis,Bulk pricing negotiated; stave billets 2x48 in each
+LBR-MAPl,Hard maple hardwood lumber (4/4 surfaced),2,board_foot,3.75,7.50,Youngblood Lumber Minneapolis,Used for wider 292 mm variant drums
+LBR-PAD,Padauk hardwood (4/4 surfaced),0.5,board_foot,8.00,4.00,Youngblood Lumber Minneapolis,Accent stave splices; small quantity per drum
+LBR-PUR,Purpleheart hardwood (4/4 surfaced),0.25,board_foot,9.00,2.25,Youngblood Lumber Minneapolis,Accent stave splices; very small quantity
+HEAD-GSK,Goatskin drum head (hairless, pre-cut circle),1,each,14.00,14.00,African Rhythm Imports or local drumming supplier,Soaked before mounting; 25 mm wrap allowance beyond shell OD
+ROPE-3_16,3/16" double-braided polyester rope,100,foot,0.06,6.00,Hardware store / rope supplier,~100 ft per drum for mali weave; check tension consistency
+HOOP-WD,Wood hoop (steam-bent ash or oak ring),1,each,4.00,4.00,Sourced or shop-bent from 3/4 in ash strip,Head is wrapped over this hoop before lacing
+GLUE-T3,Titebond III wood glue,0.25,pint,3.00,0.75,Woodcraft or hardware store,Waterproof; used for stave glue-up
+LACQ-OIL,Oil + lacquer finish (Tung oil + spray lacquer),0.125,quart,6.00,0.75,Hardware / finishing store,Two coats oil + two coats lacquer; sanded between
+SAND-SET,Sandpaper assortment (80/120/180/220 grit),1,set,2.00,2.00,Hardware store,Progressive grits; finish with 220 before lacquer
+SCREW-SET,Drywall screws 1-5/8" for clamping cauls,6,each,0.05,0.30,Hardware store,Temporary caul attachment; removed after glue cure
+ROPE-CORD,Nylon cord for clamping (glue-up only),20,foot,0.02,0.40,Hardware store,Rope-clamp around 9-stave half; reused across drums
+TOTAL,Total materials per drum (2015 bulk pricing),1,drum,,,, ~$78 per drum at workshop scale; individual sourcing ~$110-135
