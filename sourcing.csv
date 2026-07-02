@@ -1,0 +1,13 @@
+part_id,supplier_name,supplier_location,supplier_url,lead_time_days,min_order,notes
+LBR-CHR,Youngblood Lumber,Minneapolis MN,https://www.youngbloodlumber.com,1,1 board foot,Used for 2015 workshop; call ahead for 4/4 cherry availability; bulk discount available for 8+ builders
+LBR-MAP,Youngblood Lumber,Minneapolis MN,https://www.youngbloodlumber.com,1,1 board foot,Same supplier; 4/4 hard maple for 292 mm variant drums
+LBR-PAD,Woodcraft or Rockler,National chain,https://www.woodcraft.com,1-5,1 board foot,Padauk is specialty wood; Woodcraft carries reliably; exotic lumber dealers also carry
+LBR-PUR,Woodcraft or Rockler,National chain,https://www.woodcraft.com,1-5,1 board foot,Purpleheart accent staves; small quantity only
+HEAD-GSK,African Rhythm Imports,Online,https://www.rhythmimports.com,5-10,1 each,Pre-cut goatskin circles; specify head OD (254 mm for standard drum); salted/dry form preferred
+HEAD-GSK-ALT,Drum-making suppliers,Online,https://www.drumsticksusa.com,3-7,1 each,Multiple online suppliers for goatskin drum heads; ensure hairless grade
+ROPE-3_16,Knot & Rope Supply,Online,https://www.knotandrope.com,3-7,100 feet,3/16" double-braided polyester; black or natural; any color is functional
+ROPE-3_16-ALT,West Marine,National chain,,1-3,100 feet,Marine-grade polyester rope; carries 3/16"; slightly higher cost
+HOOP-WD,Shop-bent (ash or oak),Local shop,,7-14 custom,1 each,Bend from 3/4 x 3/4 in ash strip steam-bent to shell OD; or order from drum parts supplier
+GLUE-T3,Woodcraft or hardware store,Local,https://www.woodcraft.com,1,1 pint,Titebond III; waterproof PVA; must be genuine Titebond III for moisture resistance
+LACQ-OIL,Woodcraft or hardware store,Local,,1,1 quart,Tung oil (Waterlox or equivalent) + spray lacquer for topcoat
+SAND-SET,Hardware store / online,Local,,1,1 set,Norton or 3M; 80/120/180/220 assortment

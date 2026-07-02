@@ -1,6 +1,6 @@
 # Ashiko Drum-Building Workshop
 
-**Status: L4 V5 empirical packet** — validated by the 2015 workshop build of 16 drums. `validation.csv` captures nominal shell/head parameters; measured pitch values are pending re-measurement (workshop tuner readings were not recorded). `reference/acoustic-validation-checklist.md` defines pre-build and post-build acceptance gates.
+**Status:** L4 V5 empirical packet — validated by the 2015 workshop build of 16 drums. `validation.csv` captures nominal shell/head parameters; measured pitch values are pending re-measurement (workshop tuner readings were not recorded). `reference/acoustic-validation-checklist.md` defines pre-build and post-build acceptance gates.
 
 > *In January 2015, I designed and led an 8-person workshop at a Twin Cities makerspace where we built 16 traditional African ashiko drums end-to-end — from sourcing raw hardwood lumber to lacing on the goatskin head.*
 
@@ -128,5 +128,10 @@ ashiko-drum-workshop/
 │   └── components/            ← McMaster-Carr referenced parts
 ├── drawings/                  ← per-builder stave cut PDFs + Avery 5160 labels
 ├── images/                    ← curated build photos + figures
+├── CAD/ashiko-drum-workshop.scad  ← parametric stave-shell envelope master (pending_measurement)
+├── evolution/                 ← StudioPipeline Stage-0 intake (design intent, master manifest, revisions)
 └── reference/                 ← Bosch 4100 saw manual, sled construction reference
 ```
+
+Root-level V5 baseline packet files (`design.md`, `bom.csv`, `sourcing.csv`, `cut-list.csv`,
+`validation.csv`, `risks.md`, `drawing-brief.md`) mirror the authored packet in `build/packet/`.

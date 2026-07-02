@@ -1,0 +1,34 @@
+{
+  "product": "ashiko-drum-workshop",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "CAD/ashiko-drum-workshop.scad",
+      "format": "openscad-source",
+      "sha256": "3d7b2cb07bc485b7999f87ff7a288264ec39a5a2cf3f64bfc15d8043c1f43e45",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Parametric stave-shell envelope (n=18 truncated-cone facets + head ring). foot_od/wall marked assumptions; compound-miter stave cut out of scope."
+    },
+    {
+      "path": "wolfram/ashiko-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "f836efa2146165f5ba12f08c8616b355cf236d2252a5039cbfcc0ed632cc79c7",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Membrane tension / fundamental-frequency model; source-only (not executed). L2 evidence."
+    },
+    {
+      "path": "ashiko-drum-workshop-design-table.xlsx",
+      "format": "design-table",
+      "sha256": "d6d778341f5a2d4ffbb70eaf88692447e9b2117a7af8be7361242dee5e701dc7",
+      "authority": "fabrication",
+      "lossy": false,
+      "notes": "Dimensional authority alongside CAD/drum-body/ SolidWorks parts (Windows-side; not in this intake)."
+    }
+  ],
+  "notes": "OpenSCAD envelope + design table + SolidWorks parts are the current masters; SolidWorks STEP export is Windows-side, out of scope for this intake pass. Gate A (Alpha workspace compile) not yet run."
+}
