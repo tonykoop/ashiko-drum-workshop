@@ -23,3 +23,10 @@ BOM-PDF-001,BOM/Bill-of-Materials-V1.pdf,bom_document,reference_archive,referenc
 BOM-PDF-002,BOM/Bill-of-Materials-V2.pdf,bom_document,reference_archive,reference_only,,none,Revised BOM PDF
 BOM-PDF-003,BOM/Ashiko-BOM-Final.pdf,bom_document,reference_archive,reference_only,,none,Final BOM PDF from workshop
 STAVE-PDF-001,BOM/Stave-Draft-Rounds-1-7.pdf,drawing,reference_archive,reference_only,,none,Stave iteration drawings; design intent reference only
+DT-001,ashiko-drum-workshop-design-table.xlsx,design_table,design_table,fabrication,,derived_from_authority,Current dimensional authority: stave count shell OD height head diameter species BOM baseline.
+BOM-001,bom.csv,bom,bom,fabrication,,derived_from_authority,Make/buy material and hardware list; mirrors build/packet/bom.csv.
+SRC-001,sourcing.csv,sourcing,sourcing,fabrication,,derived_from_authority,Spec-first sourcing table; live prices not verified.
+CUT-001,cut-list.csv,cut_list,cut_list,fabrication,,derived_from_authority,Rough/finish stave dimensions from design-table geometry.
+MT-001,validation.csv,measurement_template,measurement_template,fabrication,,derived_from_authority,Nominal shell/head parameters + acceptance gates; measured pitch pending re-capture.
+CAD-001,CAD/ashiko-drum-workshop.scad,cad_source,cad_authoring,pending_measurement,ashiko-drum-workshop-design-table.xlsx,derived_from_authority,Parametric stave-shell envelope master (n=18 facets truncated cone + head ring). foot_od/wall are assumptions; compound-miter cut out of scope. Renders clean in OpenSCAD. Not fabrication authority until reviewed against SolidWorks masters.
+WL-001,wolfram/ashiko-wolfram-model.wl,wolfram_source,wolfram,derived_preview,,source_only,Membrane tension / fundamental-frequency model; source-only (not executed); L2 evidence.
