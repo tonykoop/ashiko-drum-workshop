@@ -65,3 +65,41 @@ stash-recovered-*/
 # Pack-and-Go zips / archives
 PackAndGo*.zip
 *.7z
+
+# --- Standard maker/CAD hygiene (added per instrument-maker #195) ---
+# OS cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/swap files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# CAD backup/lock/temp exports (not final deliverables)
+~$*
+*.SLDPRT~
+*.SLDASM~
+*.SLDDRW~
+*.stl.tmp
+*.3mf.tmp
+*.step.tmp
+*.f3d.lock
+*.f3z.lock
+*.sldprt.lock
+*.sldasm.lock
+*.slddrw.lock
+
+# OpenSCAD temp/cache
+*.scad.bak
+.openscad_cache/
+
+# Render/export scratch (not committed deliverables)
+renders/tmp/
+renders/scratch/
+exports/tmp/
+exports/scratch/
+scratch/
